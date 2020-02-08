@@ -3,6 +3,8 @@
   <title>Prueba de David</title>
  </head>
  <body>
- <?php echo '<p>Hello David</p>'; ?>
+ <?php
+echo '¡Hola ' . htmlspecialchars($_GET["nombre"]) . '!';
+?>
  </body>
 </html>
